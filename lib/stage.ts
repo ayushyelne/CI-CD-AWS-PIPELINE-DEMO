@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib';
 import {Construct} from "constructs";
-import {MyLambdaStack} from "./stacks/lambda";
+import {MyLambdaStack} from "./lambda";
 
 export class MyPipelineAppStage extends cdk.Stage{
     constructor(scope: Construct, stageName: string, props?: cdk.StackProps) {
